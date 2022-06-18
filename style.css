@@ -71,7 +71,7 @@ header .list-items{
     .texto-apresentacao p {
         margin-bottom: 10px;
     }
-    .texto-apresentacao a{
+    .btn{
         background-color: #122A57;
         color: #fff;
         text-align: center;
@@ -174,4 +174,29 @@ header .list-items{
     flex: 1;
     border: 5px solid #122A57;
     margin-right: 20px;
+    padding: 10px;
 }
+
+    .item-plano .btn{
+        margin: auto;
+        margin:0 auto 20px;
+    }
+    .item-plano h3{
+        font-size: 24px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .item-plano h3::after{
+        content:"";
+        background-color: #122A57;
+        width: 100%;
+        height: 3px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .item-plano ul{
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+    }
